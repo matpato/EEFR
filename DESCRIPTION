@@ -1,0 +1,14 @@
+Package: EEFRanking
+Type: Package
+Title: evolution Ensemble Feature Ranking (EFR)
+Version: 0.1.0
+Author: HCG, adapted from M.Pato <A3940@alunos.isel.pt>
+Maintainer: Maintainer <Maintainer@gmail.com>
+Description: Feature Selection function based on EEFR algorithm
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Date: 2021-1-4
+Imports: FSelector
+RoxygenNote: 7.1.1
+
