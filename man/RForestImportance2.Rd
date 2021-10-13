@@ -2,7 +2,7 @@
 % Please edit documentation in R/RForestImportance2.R
 \name{RForestImportance2}
 \alias{RForestImportance2}
-\title{RForestImportance2, random.forest.importance with importance.type=2}
+\title{RForestImportance2}
 \usage{
 RForestImportance2(formula, dataset)
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/getRowSamples.R
 \name{getNRandomsRowsSubsets}
 \alias{getNRandomsRowsSubsets}
-\title{Get N random Saples}
+\title{Get N random Samples}
 \usage{
 getNRandomsRowsSubsets(nRows, size, iterations)
 }
