@@ -4,7 +4,7 @@
 #' @param dataset original
 #' @param RandomRows N subset index rows
 #' @param functionToUse statistical function to use as relevancy metric of each feature
-#' @param list of M features
+#' @param features list of features names
 #' @return N x M list of weights
 #'
 

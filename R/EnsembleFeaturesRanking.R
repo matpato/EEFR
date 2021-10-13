@@ -2,10 +2,11 @@
 #'
 #' @description Takes a dataset and outputs a features name list inversely ordered by relevance
 #' @param dataset dataset with numerial features and binary categorical class, named 'class'
-#' @param nRows number of rows of each dataset partition, 10 default value
-#' @param nTries number of runs, ncol(dataset) / 2, default value
-#' @param cutOff k = n (selects n features); k=0 (selects all features); k=-1 (automatic selecion) default
-#' @param methods list of filter functions (ensemble) for feature evaluation, default list(gain.ratio,symmetrical.uncertainty,chi.squared, random.forest.importance)
+#' @param ... optional parameters: \cr
+#' nRows - number of rows of each dataset partition, 10 default value \cr
+#' nTries - number of runs, ncol(dataset) / 2, default value \cr
+#' cutOff - = n (selects n features); =0 (selects all features); =-1 (automatic selecion) default \cr
+#' methods - list of filter functions (ensemble) for feature evaluation, default list(gain.ratio,symmetrical.uncertainty,chi.squared, random.forest.importance)
 #' @import FSelector
 #' @export
 #' @return features names list inversely ordered by relevance
@@ -14,8 +15,10 @@
 #' data(allDataProbe)
 #' library(FSelector)
 #' set.seed(134)
+#' nRows=nrow(allDataProbe)/2
 #' methods <- list(gain.ratio,chi.squared)
-#' features <- ensemble.features.ranking(allDataProbe, nRows=nrow(allDataProbe)/2, nTries=20, cutOff= -1, methods=methods)
+#' features <- ensemble.features.ranking(allDataProbe, nRows=nRows,
+#' nTries=20, cutOff= -1, methods=methods)
 #' print(features)
 #'
 
