@@ -1,4 +1,4 @@
-#' @title Get N random Saples
+#' @title Get N random Samples
 #'
 #' @description Get N random row indexes subsets
 #' @param nRows dataset number of rows
