@@ -2,7 +2,7 @@
 % Please edit documentation in R/EnsembleFeaturesRanking.R
 \name{ensemble.features.ranking}
 \alias{ensemble.features.ranking}
-\title{Ensemble Features Ranking}
+\title{Enhanced Ensemble Features Ranking}
 \usage{
 ensemble.features.ranking(dataset, ...)
 }

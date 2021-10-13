@@ -1,11 +1,11 @@
 #' @title Rank Sampling
 #'
-#' @description Calculates Feature Ranking List sorted by its relevancy
+#' @description Calculates Feature Ranking List sorted by its relevance
 #' @param weights of features list for each metric function for each dataset sample
 #' @param featuresNames to be ranked
 #' @param weightPerGroup of eachrank
 #' @param cutOff: 0 (all features), k (k most ranked features), -1 (automatic k calculation)
-#' @return rank subset of features ordered by its relevancy
+#' @return rank subset of features ordered by its relevance
 #'
 
 

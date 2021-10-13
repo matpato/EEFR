@@ -16,8 +16,8 @@ calculateRankSampling(weights, featuresNames, weightPerGroup, cutOff = -1)
 \item{cutOff:}{0 (all features), k (k most ranked features), -1 (automatic k calculation)}
 }
 \value{
-rank subset of features ordered by its relevancy
+rank subset of features ordered by its relevance
 }
 \description{
-Calculates Feature Ranking List sorted by its relevancy
+Calculates Feature Ranking List sorted by its relevance
 }

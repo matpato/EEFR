@@ -9,12 +9,12 @@ getNRandomsRowsSubsets(nRows, size, iterations)
 \arguments{
 \item{nRows}{dataset number of rows}
 
-\item{size}{subset number of rows}
+\item{size}{dataset partition number of rows}
 
-\item{interactions}{number of subsets (N)}
+\item{interactions}{number of partitions (N)}
 }
 \value{
-N subsets of row indexs
+N dataset row indexes partitions
 }
 \description{
 Get N random row indexes subsets

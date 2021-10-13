@@ -9,10 +9,10 @@ cutoff.by.contrib(attrs, contrib = 1)
 \arguments{
 \item{attrs}{a data.frame containing features weights to be sorted and selected}
 
-\item{contrib}{subsets all features with contribution > uniform contribution * contrib}
+\item{contrib}{selection factor close to 1, subsets all features with contribution > uniform contribution * contrib}
 }
 \value{
-featurenames subset, ordered by its weights
+featurenames subset, inverse ordered by its weights
 }
 \description{
 cutoff.by.contrib is an alternative to Fselector cutoff.biggest.diff.

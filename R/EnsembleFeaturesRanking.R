@@ -1,4 +1,4 @@
-#' @title Ensemble Features Ranking
+#' @title Enhanced Ensemble Features Ranking
 #'
 #' @description Takes a dataset and outputs a features name list inversely ordered by relevance
 #' @param dataset dataset with numerial features and binary categorical class, named 'class'

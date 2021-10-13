@@ -2,9 +2,9 @@
 #'
 #' @description Get N random row indexes subsets
 #' @param nRows dataset number of rows
-#' @param size subset number of rows
-#' @param interactions number of subsets (N)
-#' @return N subsets of row indexs
+#' @param size dataset partition number of rows
+#' @param interactions number of partitions (N)
+#' @return N dataset row indexes partitions
 #'
 
 
