@@ -1,18 +1,21 @@
 # EEFRanking (Enhanced Ensemble Feature Ranking)
-The EEFRanking R package implements EEFR Feature Selection algorithm.
-On a data mining process, EEFR can be used as feature selection pre-process, before classification.
+EEFRanking R package implements EEFR feature selection algorithm as an enhancement of the former EFR.
+This project is part of my Master's Degree on Computer Science and Engineering at [Instituto Superior de Engenharia de Lisboa (ISEL)](https://www.isel.pt/).
+
+The aim of EEFR is to make Feature Ranking and Feature Selection tasks easier for Data Mining (DM) developers in R.
+On a DM process, EEFR can be used as feature selection pre-process, before classification.
 
 ## Package installation from GitHub:
 library("devtools")<br/>
 install_github('https://github.com/matpato/EEFR.git', INSTALL_opts=c("--no-multiarch"))
 
 
-## EEFRanking usage:
+## Package usage:
 library(EEFRanking)<br/>
 features <- ensemble.feature.ranking(dataset)<br/>
 dataset <- dataset[,c(features, 'class')]
 
-## Documentation:
+## Package documentation:
 The feature selection is executable by ***ensemble.feature.ranking(dataset, ...)***. 
 A list of optional parameters is available, as specified on the documentation. 
 As output, it returns a list with the name of the characteristics sorted in inverse order of relevance. 
