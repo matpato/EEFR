@@ -19,7 +19,7 @@ dataset <- dataset[,c(features, 'class')]
 The feature selection is executable by ***ensemble.feature.ranking(dataset, ...)***. 
 A list of optional parameters is available, as specified on the documentation. 
 As output, it returns a list with the name of the characteristics sorted in inverse order of relevance. 
-The returned list can include all the sorted characteristics or a subset of the first ones.
+The returned list can include all the sorted features or a subset of the first most relevant ones.
 
 EEFRanking documentation is accessible by: ***help(package="EEFRanking")***. 
 The R package includes a demo example, executable by: ***example("ensemble.features.ranking")***. 
