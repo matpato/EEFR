@@ -25,4 +25,5 @@ EEFRanking documentation is accessible by: ***help(package="EEFRanking")***.
 The R package includes a demo example, executable by: ***example("ensemble.features.ranking")***. 
 The example uses an artificial dataset included in R package.
 
-
+Package EEFRanking is accessible from https://github.com/matpato/EEFR.git repository <br/>
+The package pEEFRanking (parallel version) is accessible from https://github.com/matpato/EEFR-parallel.git repository
